@@ -51,5 +51,8 @@ Thumbs.db
 .vscode/
 .idea/
 
-# ─── Firebase ────────────────────────────────────────────────────────────────
 .firebaserc
+
+# ─── Firebase iOS/macOS secrets ──────────────────────────────────────────────
+aurality_monitor/ios/Runner/GoogleService-Info.plist
+aurality_monitor/macos/Runner/GoogleService-Info.plist
