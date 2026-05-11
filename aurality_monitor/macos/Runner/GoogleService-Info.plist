@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1053739695151-c8bhrmo695msa1cb6nemje4s3mv3tvvd.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1053739695151-c8bhrmo695msa1cb6nemje4s3mv3tvvd</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBpIYikoCeHikBRBK1-C3_KjxXCYeQURdM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1053739695151</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.auralityMonitor</string>
+	<key>PROJECT_ID</key>
+	<string>aurality-iup</string>
+	<key>STORAGE_BUCKET</key>
+	<string>aurality-iup.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1053739695151:ios:3507dffd215af108dadada</string>
+	<key>DATABASE_URL</key>
+	<string>https://aurality-iup-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

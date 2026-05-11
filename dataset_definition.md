@@ -1,0 +1,25 @@
+# Aurality Dataset Definition
+
+## Purpose
+This dataset supports Aurality, a proof-of-concept, real-time acoustic safety system for care environments. The dataset is designed to train and evaluate a lightweight sound-event classifier that can detect safety-relevant events using privacy-preserving, on-device inference.
+
+## Final Sound Classes
+Aurality will classify three sound categories:
+
+1. **Glass Breaking**
+   - Represents sudden risk events linked to damage, escalation, or unsafe incidents in a residential setting.
+
+2. **Alarm Sounds (fire, smoke, security)**
+   - Represents urgent safety alerts that require immediate staff attention and fast escalation procedures.
+
+3. **Shouting / Raised Human Voice**
+   - Represents verbal escalation that may indicate conflict, distress, or safeguarding concern, without requiring ethically sensitive distress audio.
+
+## Rationale for Selecting These Classes
+These classes were selected because they are strongly associated with safeguarding and safety risks in care environments, while remaining feasible to implement within the constraints of a final-year undergraduate project. They also align with the project’s aim of building a realistic proof-of-concept that prioritises rapid detection, practical usability, and responsible data handling.
+
+## Why Distress Sounds Are Excluded
+Distress sounds such as screaming, crying, or trauma-related vocalisations are excluded due to ethical concerns. Recreating or sourcing such audio may introduce safeguarding risks and participant sensitivity issues, particularly when the project is not designed to involve vulnerable groups or real care settings. To avoid these risks, the project focuses on sound categories that remain safety-relevant but are ethically safer to source and evaluate.
+
+## Ethical Justification
+The dataset strategy aims to balance realism with ethical responsibility. All audio used will be sourced from publicly available datasets or ethically justified real-world recordings. Any optional AI-generated audio will be clearly labelled and will only be used after a small realism validation study confirms that the samples are perceived as realistic enough for prototype testing. This approach supports responsible research practice and reduces the likelihood of privacy or safeguarding harm.
